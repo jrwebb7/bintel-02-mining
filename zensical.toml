@@ -8,9 +8,9 @@
 
 [project]
 site_name = "Docs" # CUSTOM: Set the name that appears in the browser tab.
-site_url = "https://denisecase.github.io/bintel-02-mining/"
-repo_url = "https://github.com/denisecase/bintel-02-mining"
-repo_name = "bintel-02-mining"
+site_url = "https://jrwebb7.github.io/bintel-02-mining/"
+repo_url = "https://github.com/jrwebb7/bintel-02-mining"
+repo_name = "jrwebb7/bintel-02-mining"
 site_description = "Project Documentation" # CUSTOM: Set the description.
 docs_dir = "docs" # source directory for documentation markdown files
 site_dir = "site" # output directory for generated site (ignored by Git; not in repo)
