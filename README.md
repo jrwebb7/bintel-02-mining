@@ -76,6 +76,7 @@ Run the Phase 4 customized mining analysis:
 
 ```shell
 uv run python -m bizintel.mining_case_james
+```
 
 ### In a machine terminal (open in your `Repos` folder)
 
@@ -85,6 +86,7 @@ open a machine terminal in your `Repos` folder:
 ```shell
 # Replace username with YOUR GitHub username.
 git clone https://github.com/username/bintel-02-mining
+```
 
 cd bintel-02-mining
 code .
