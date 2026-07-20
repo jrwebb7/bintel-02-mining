@@ -70,6 +70,13 @@ A new file `project.log` will appear in the root project folder.
 <details>
 <summary>Show command reference</summary>
 
+## Custom Project Commands
+
+Run the Phase 4 customized mining analysis:
+
+```shell
+uv run python -m bizintel.mining_case_james
+
 ### In a machine terminal (open in your `Repos` folder)
 
 After you get a copy of this repo in your own GitHub account,
@@ -168,6 +175,37 @@ Replace these placeholders with screenshots from your own project run:
 Additional project instructions, terms, and notes:
 
 [docs/index.md](docs/index.md)
+
+## Phase 4: Make a Technical Modification
+
+For Phase 4, I created a customized copy of the working mining example named `mining_case_james.py`. I modified the product price distribution histogram by increasing the number of bins from 10 to 15. I also updated the chart title to identify the 15-bin visualization.
+
+The purpose of this modification was to create a more detailed visualization of the distribution of product prices. Increasing the number of bins divides the range of product prices into smaller intervals, which provides a more granular view of the data.
+
+I ran the customized project using the following command:
+
+`uv run python -m bizintel.mining_case_james`
+
+The project executed successfully and produced the modified product price distribution chart along with the existing sales trend analysis.
+
+## Phase 5: Apply the Skills to a New Problem
+
+For Phase 5, I applied the BI mining and exploration skills from the example project to analyze sales performance from two different business perspectives.
+
+The custom analysis examines:
+
+1. Total sales by customer region.
+2. Total sales by product category.
+
+The regional analysis combines customer and sales data to show how total sales differ across geographic regions. This can help identify stronger and weaker markets.
+
+The product category analysis combines product and sales data to compare total sales across product categories. This can help identify which categories contribute the most to overall sales.
+
+I ran the custom analysis using the following command:
+
+`uv run python -m bizintel.app_case`
+
+The project executed successfully and generated bar charts for total sales by region and total sales by product category. These visualizations provide unique results that can support business decisions related to regional performance and product strategy.
 
 ## Citation
 
